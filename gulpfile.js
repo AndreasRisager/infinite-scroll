@@ -14,6 +14,16 @@ function processHTML() {
 		.pipe(connect.reload());
 }
 
+function processSass() {
+	return gulp.src("src/sass/**/*.scss")
+		.pipe(sourcemap.init())
+		.pipe(sass())
+		.pipe(cleanCSS({ compatibility: "ie8" }))
+		.pipe(sourcemap.write("."))
+		.pipe(gulp.dest("dist/assets/css"))
+		.pipe(connect.reload());
+}
+
 function resizeImgs(){
     return gulp.src(["src/images/resize/*", "!src/images/resize/thumb.db"])
     .pipe(imagemin([
@@ -53,15 +63,6 @@ function processImgs(){
 	.pipe(connect.reload());
 }
 
-function processSass() {
-	return gulp.src("src/sass/**/*.scss")
-		.pipe(sourcemap.init())
-		.pipe(sass())
-		.pipe(cleanCSS({ compatibility: "ie8" }))
-		.pipe(sourcemap.write("."))
-		.pipe(gulp.dest("dist/assets/css"))
-		.pipe(connect.reload());
-}
 
 function processJS(){
 	return gulp.src("src/js/**/*.js")

@@ -1,22 +1,22 @@
 {
-  "name": "automatisering-med-gulp-andreasrisager",
+  "name": "ppoo",
   "version": "1.0.0",
   "description": "I denne opgave skal du vise, at du kan sætte en automatiseringsprocess op med Gulp og Node.js.",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rts-cmk-wu04/automatisering-med-gulp-AndreasRisager.git"
+    "url": "git+https://github.com/AndreasRisager/ppoo.git"
   },
-  "author": "AndreasRisager",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rts-cmk-wu04/automatisering-med-gulp-AndreasRisager/issues"
+    "url": "https://github.com/AndreasRisager/ppoo/issues"
   },
-  "homepage": "https://github.com/rts-cmk-wu04/automatisering-med-gulp-AndreasRisager#readme",
+  "homepage": "https://github.com/AndreasRisager/ppoo#readme",
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
