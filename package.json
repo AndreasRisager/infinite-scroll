@@ -1,7 +1,7 @@
 {
   "name": "ppoo",
   "version": "1.0.0",
-  "description": "I denne opgave skal du vise, at du kan sætte en automatiseringsprocess op med Gulp og Node.js.",
+  "description": "Infinite scroll",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndreasRisager/ppoo.git"
+    "url": "git+https://github.com/AndreasRisager/infinite-scroll.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndreasRisager/ppoo/issues"
+    "url": "https://github.com/AndreasRisager/infinite-scroll/issues"
   },
-  "homepage": "https://github.com/AndreasRisager/ppoo#readme",
+  "homepage": "https://github.com/AndreasRisager/infinite-scroll#readme",
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",

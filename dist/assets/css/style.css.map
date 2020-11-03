@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.scss","_variables.scss"],"names":[],"mappings":"AAEA,KACI,MCHW","file":"style.css","sourcesContent":["@import 'variables';\r\n\r\nbody{\r\n    color: $primaryColor;\r\n}","$primaryColor: #AE93CF;"]}
